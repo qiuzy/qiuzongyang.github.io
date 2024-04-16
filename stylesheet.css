@@ -129,3 +129,18 @@ name {
 span.highlight {
   background-color: #ffffd0;
 }
+
+
+/*
+/* qiuzy add bullets style  */
+/*ul.a {
+  list-style-type: circle;
+}
+*/
+ul.a { margin-left:30px; }
+ul.a li::marker { font-size: 24px; }
+ul.a li span { font-size: 30px; }
+ul.b { list-style-type: decimal; margin-left: 0px; } 
+ul.b li::marker { font-size: 17px; }
+ul.b li span { font-size: 20px; }
+ul.c {list-style-type: decimal}
